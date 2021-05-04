@@ -56,7 +56,7 @@ def run(context):
         except: pass
         
         ## Set "Do not capture design history"
-        design.designType = adsk.fusion.DesignTypes.DirectDesignType
+        # design.designType = adsk.fusion.DesignTypes.DirectDesignType # Changed by raphael: Why should you do that?
         
         # --------------------
         # set dictionaries
