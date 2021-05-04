@@ -85,7 +85,7 @@ def run(context):
         Write.write_hello_pybullet(robot_name, save_dir)
         
         # Generate STl files        
-        utils.copy_occs(root)
+        # utils.copy_occs(root) # Changed by raphael: this creates a lot of rubish into your document
         utils.export_stl(design, save_dir, components)   
         
         ui.messageBox(msg, title)
